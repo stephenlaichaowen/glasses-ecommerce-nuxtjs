@@ -50,6 +50,7 @@ export default {
   }
 
   .other {   
+    margin: 10px 0;
 
     .now-price {
       color: red;
@@ -73,7 +74,7 @@ export default {
       height: 12px;
       line-height: 12px;
       display: inline-block;
-      margin: 5px 0 10px 0;
+      // margin: 5px 0 10px 0;
     }
   }
 }
