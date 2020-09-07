@@ -26,7 +26,7 @@ export default {
 .category-view {
   display: flex;
   background: black;
-  margin-top: -3px;
+  margin-top: -5px;
 
   .item {
     width: 20%;
