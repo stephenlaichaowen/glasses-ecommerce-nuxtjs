@@ -1,0 +1,29 @@
+{
+  "name": "glasses-ecommerce-app",
+  "version": "1.0.0",
+  "description": "Glasses Ecommerce App",
+  "author": "stephenlai",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "amfe-flexible": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "vant": "^2.10.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "autoprefixer": "^9.8.6",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "postcss-pxtorem": "^5.1.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^10.0.2"
+  }
+}
