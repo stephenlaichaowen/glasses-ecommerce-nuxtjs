@@ -13,7 +13,7 @@
 
     <!-- 精選活動 -->
     <TitleView title="精選活動" name="gift-o" />
-    
+
     <!-- 為你推薦 -->
     <TitleView title="為你推薦" name="label-o" />
     
@@ -52,6 +52,11 @@ export default {
 .home-view {
   padding-top: 45px;
   min-height: 100vh;
+}
+
+.van-swipe {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 img {

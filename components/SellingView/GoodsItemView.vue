@@ -30,7 +30,6 @@ export default {
   border-bottom: 1px solid #bbbbbb;
   background: white;
   text-align: center;
-  border-right: 1px solid #000;
 
   .img {
     width: 150px;
@@ -74,7 +73,7 @@ export default {
       height: 12px;
       line-height: 12px;
       display: inline-block;
-      margin: 10px 0;
+      margin: 5px 0 10px 0;
     }
   }
 }
