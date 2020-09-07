@@ -55,8 +55,7 @@ export default {
 }
 
 .van-swipe {
-  padding-bottom: 0;
-  margin-bottom: 0;
+  background: white;
 }
 
 img {

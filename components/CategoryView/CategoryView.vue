@@ -25,8 +25,8 @@ export default {
 <style lang="scss" scoped>
 .category-view {
   display: flex;
-  background: black;
-  margin-top: -5px;
+  background: white;
+  margin-top: -3px;
 
   .item {
     width: 20%;
