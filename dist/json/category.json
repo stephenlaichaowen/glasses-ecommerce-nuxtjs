@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "bgColor": "pink"
+  },
+  {
+    "id": 2,
+    "bgColor": "red"
+  },
+  {
+    "id": 3,
+    "bgColor": "orange"
+  },
+  {
+    "id": 4,
+    "bgColor": "green"
+  },
+  {
+    "id": 5,
+    "bgColor": "lightblue"
+  }
+]

@@ -13,6 +13,7 @@
 
     <!-- 精選活動 -->
     <TitleView title="精選活動" name="gift-o" />
+    <WinnowView />
 
     <!-- 為你推薦 -->
     <TitleView title="為你推薦" name="label-o" />

@@ -20,7 +20,7 @@ export default {
   text-align: center;
 
   .van-nav-bar__title {
-    color : white;
+    color : white !important;
   }
 }
 </style>

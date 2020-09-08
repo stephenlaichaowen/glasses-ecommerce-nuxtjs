@@ -2,7 +2,8 @@ export const actions = {
   async nuxtServerInit({ dispatch }) {
     await dispatch('setMenu')
     // return await dispatch('setAssort')    
-    return await dispatch('setSellingList')    
+    await dispatch('setSellingList')    
+    return await dispatch('setWinnow')    
   },
 
   async setMenu({ commit }) {
@@ -18,6 +19,11 @@ export const actions = {
   async setSellingList({ commit }) {
     const data = await this.$axios.$get('/json/selling-list.json')
     commit('setSellingList', data)
+  },
+  
+  async setWinnow({ commit }) {
+    const data = await this.$axios.$get('/json/winnow.json')
+    commit('setWinnow', data)
   },
   
   setTitle({ commit }, title) {
